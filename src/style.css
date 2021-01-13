@@ -1,0 +1,141 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+
+
+/* FONTS: 
+Green: #54be90
+White: #ffffff
+Light grey: #ebebeb
+Text grey: #444444
+Dark grey: #232323 */
+.navigation img {
+    display: flex;
+    flex: wrap;
+    height: 40px;
+    object-position: left;
+    background-color: white;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+    background-color: #232323;
+    height: 40px;
+}
+
+.navigation a{
+    text-decoration: none;]
+    
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/web-design-2906159_1920.jpg) center no-repeat;
+    back
+
+    background-origin: border-box;
+    padding-bottom: 40%;
+}
+
+.spacing {
+    height: 5%;
+}
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #c7c7c7;
+    color: #444444;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+
+
+
+.stages_smry{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: #232323;
+    padding: 10px;
+    padding-top: 10px;
+    
+}
+
+.stage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-evenly;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    font-size: smaller;
+}
+
+.stage h4 {
+    color: #54be90;
+    display: flex;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: x-large;
+}
+
+
+.stage p {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: px;
+    font-size: small;
+    color: white;
+}
+
+
+
+
+
+  
+
+
